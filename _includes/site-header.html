@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="{{ "/assets/css/header.css" | prepend: site.baseurl }}">
+<input type="checkbox" id="xBxHack" />
+<nav id="mainNav" class="mainNav">
+  <div class="container">
+    <div class="logo"></div>
+    <label class="navBars" for="xBxHack">
+      <i class="fa fa-bars"></i>
+    </label>
+    <ul id="menu" class="menu">
+      <li><a href="{{site.baseurl}}/">Home</a></li>
+      <li><a href="{{site.baseurl}}/about">About</a></li>
+      <li><a href="{{site.baseurl}}/contact">Contact</a></li>
+      <li id="lang">
+        {% for lang in site.languageNames %}
+        {% if lang[0] == site.lang %}
+              {% continue %}
+        {% else %}
+               <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
+        {% endif %}
+        {% endfor %}
+      </li>
+    </ul>
+  </div>
+</nav>

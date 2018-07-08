@@ -1,1 +1,40 @@
-theme: jekyll-theme-minimal
+title: Hello World! Welcome to my knowledge base :)
+description: > # this means to ignore newlines until "baseurl:"
+  Shayan Khaksar Personal Blog
+permalink: '/blog/:title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Shayan Khaksar # add your name
+author-img: shayan-khaksar.jpg # add your photo
+author-phone: (+98) 000 000 0000
+author-country: Iran
+author-city: Ahvaz
+about-author: Hi, I'm a Perfessional Android Developer. Currently studying Computer Engeering at Shahid Chamran University of Ahvaz. Love almost everything about Computer Science stuff. # add description
+social-twitter: sh_khaksar # add your Twitter handle
+social-facebook: sh.khaksar # add your Facebook handle
+social-github: shkhaksar # add your Github handle
+social-linkedin: shkhaksar # add your Linkedin handle
+social-instagram: sh.khaksar
+social-email: sh.khaksar@yahoo.com # add your Email address
+
+#timezone
+timezone: Asia/Tehran
+
+# Disqus
+discus-identifier: shkhaksar # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 3
+paginate_path: "/page/:num"

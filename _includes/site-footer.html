@@ -1,0 +1,33 @@
+<footer class="footer">
+  <link rel="stylesheet" href="{{ "/assets/css/footer.css" | prepend: site.baseurl }}">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span>{{site.author}}</span>
+      {{site.about-author}}
+    </p>
+
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>{{site.author-country}}</span>{{site.author-city}}</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#">{{site.social-email}}</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <p class="menu">
+      <a href="{{site.baseurl}}/"> Home</a> |
+      <a href="{{site.baseurl}}/about"> About</a> |
+      <a href="{{site.baseurl}}/contact"> Contact</a>
+    </p>
+    <div class="icons">
+      <a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" ></i></a>
+      <a href="https://www.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/{{site.social-instagram}}" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>

@@ -1,2 +1,1 @@
-# fa
-persian blog
+# Github repo. for my blog.
