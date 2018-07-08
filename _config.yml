@@ -35,7 +35,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
-  - jekyll-jalali
 
 paginate: 3
 paginate_path: "/page/:num"

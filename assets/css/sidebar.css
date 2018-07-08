@@ -17,8 +17,6 @@
   float: left;
   width: 240px;
   height: 100%;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
   padding: 20px 10px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
@@ -60,7 +58,7 @@
 .about .author-name {
   font-family: 'Arial', serif;
   margin: 0 0 10px;
-  position: flex;
+  position: revert;
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
@@ -169,7 +167,7 @@ footer .copyright {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .sidebar {
     display: -webkit-box;
     display: -webkit-flex;
