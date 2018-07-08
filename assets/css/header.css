@@ -78,13 +78,13 @@
     top: -99999px;
 }
 
-
 .container {
     max-width: 100%;
 }
 
 @media screen and (min-width: 600px) {
     .mainNav {
+        padding: 0 20px;
         overflow: auto;
     }
 
@@ -92,7 +92,7 @@
         display: none;
     }
 
-    .mainNav .lang a{
+    .mainNav .lang a {
         padding: 20px 15px;
     }
 

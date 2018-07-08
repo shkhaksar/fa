@@ -1,9 +1,8 @@
 .footer {
   background-color: #cecece;
   width: 100%;
-  text-align: left;
-  float: left;
-  font-family: sans-serif;
+  text-align: right;
+  direction: rtl;
   font-weight: bold;
   display: block;
   font-size: 16px;
@@ -26,6 +25,8 @@
 .footer .about {
   line-height: 20px;
   color: #33383b;
+  direction: rtl;
+  text-align: justify;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -33,6 +34,7 @@
 
 .footer .about span {
   display: block;
+  text-align: center;
   color: #33383b;
   font-size: 14px;
   font-weight: bold;
@@ -46,8 +48,9 @@
 
 .footer .icons a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 10px;
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
@@ -55,38 +58,35 @@
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-  margin-right: 3px;
-  margin-bottom: 5px;
 }
 
 
 /* footer center*/
 
 .footer .footer-center {
+  direction: rtl;
   width: 33%;
 }
+
 
 .footer .footer-center i {
   background-color: #33383b;
   color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
+  font-size: 20px;
+  padding: 15px;
+  min-height: 50px;
+  min-width: 50px;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
   margin: 10px 15px;
   vertical-align: middle;
 }
 
-.footer .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
-}
 
 .footer .footer-center p {
   display: inline-block;
   color: #33383b;
+  direction: rtl;
   vertical-align: middle;
   margin: 0;
 }
@@ -142,10 +142,9 @@
   .footer .footer-center,
   .footer .footer-right {
     justify-content: center;
-    margin:  auto 20px;
     display: inline;
     width: 100%;
-    margin-bottom: 40px;
+    margin: auto 20px 40px;
     text-align: center;
   }
   .footer .footer-center i {
