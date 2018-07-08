@@ -1,18 +1,18 @@
 title: Hello World! Welcome to my knowledge base :)
 description: > # this means to ignore newlines until "baseurl:"
-  Shayan Khaksar Personal Blog
+  وبلاگ شخصی
 permalink: '/blog/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Shayan Khaksar # add your name
+author: شایان خاکسار # add your name
 author-img: shayan-khaksar.jpg # add your photo
 author-phone: (+98) 000 000 0000
-author-country: Iran
-author-city: Ahvaz
-about-author: Hi, I'm a Perfessional Android Developer. Currently studying Computer Engeering at Shahid Chamran University of Ahvaz. Love almost everything about Computer Science stuff. # add description
+author-country: ایران
+author-city: اهواز
+about-author: سلام. من اکثر اوقات یک برنامه نویس اندروید هستم. همچنین در حال حاضر دانشجوی کارشناسی رشته مهندسی کامپیوتر در دانشگاه شهید چمران هستم. اینجا اکثرا چیزهای مرتبط با علوم کامپیوتر و برنامه نویسی رو مینویسم. # add description
 social-twitter: sh_khaksar # add your Twitter handle
 social-facebook: sh.khaksar # add your Facebook handle
 social-github: shkhaksar # add your Github handle
