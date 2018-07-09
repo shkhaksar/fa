@@ -994,6 +994,8 @@ table tfoot td {
 
 .post .post-content .post-date,
 .post .post-content .post-words {
+    direction: rtl;
+    text-align: right;
     font-size: 12px;
 }
 
