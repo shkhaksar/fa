@@ -68,6 +68,7 @@
 .about .author-name::after {
     position: absolute;
     left: 50%;
+    font-family: IRANSans;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
