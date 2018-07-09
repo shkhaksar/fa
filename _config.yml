@@ -1,6 +1,6 @@
-title: Hello World! Welcome to my knowledge base :)
+title: شایان خاکسار - یک برنامه نویس
 description: > # this means to ignore newlines until "baseurl:"
-  وبلاگ شخصی
+  نوشته‌های نیمه فنی یک کامپیوتریست
 permalink: '/blog/:title/'
 baseurl: "/fa" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
