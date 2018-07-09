@@ -79,7 +79,6 @@
   border-radius: 50%;
   text-align: center;
   margin: 10px 15px;
-  vertical-align: middle;
 }
 
 
@@ -147,11 +146,8 @@
     margin: auto 20px 40px;
     text-align: center;
   }
-  .footer .footer-center i {
-    margin-left: 0;
-  }
 
   .footer .footer-center {
-    text-align: left;
+    text-align: right;
   }
 }
