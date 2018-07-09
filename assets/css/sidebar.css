@@ -66,6 +66,11 @@
     font-weight: 700;
 }
 
+.about .about-author{
+    font-family: IRANSans;
+    font-size: 15px;
+}
+
 .about .author-name::after {
     position: absolute;
     left: 50%;
