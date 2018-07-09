@@ -13,16 +13,17 @@
 }
 
 .mainNav .lang {
+    text-align: center;
     display: inline-block;
     text-transform: uppercase;
 }
 
 .mainNav .lang a {
     color: red;
+    height: auto;
     font-weight: bold;
     display: block;
-    margin: 0;
-    padding: 20px 15px;
+    padding: 20px 18px 18px;
 }
 
 .mainNav .lang a:hover {
@@ -61,14 +62,15 @@
     display: inline-block;
     font-size: 1.7em;
     float: right;
+    height: auto;
+    text-align: center;
     /*USER SELECTION*/
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -webkit-user-select: none;
     font-weight: bold;
-    margin: 0;
-    padding: 20px 15px;
+    margin: 18px;
 }
 
 #xBxHack {
