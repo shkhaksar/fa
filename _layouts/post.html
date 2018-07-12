@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 {% include sidebar-post.html %}
 <div class="content-box clearfix">
@@ -39,9 +40,9 @@ layout: default
                         {% endfor %}
                     </div>
                 </div>
-                <!-- {% if page.disable-comments == false %}
-                  {% include disqus.html %}
-                {% endif %} -->
+                {% if page.comments %}
+                      {% include disqus.html %}
+                {% endif %}
             </div> <!-- End Wrap Content -->
         </div> <!-- End Page Content -->
     </article> <!-- End Article Page -->
