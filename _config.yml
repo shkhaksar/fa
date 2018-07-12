@@ -27,7 +27,7 @@ timezone: Asia/Tehran
 discus-identifier: shkhaksar # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-122232165-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
