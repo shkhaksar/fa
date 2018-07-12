@@ -18,7 +18,13 @@ layout: main
             document.getElementById("post-date").innerHTML = dayWrapper.format('DD MMMM YYYY')
         </script>
         <span>&nbsp;&nbsp;—&nbsp;</span>
-        <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " دقیقه زمان خواندن" }}{% endunless %}</span>
+        <span id="post-words" class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " دقیقه زمان خواندن" }}{% endunless %}</span>
+        <script>
+            var txt = document.getElementById("post-words").innerHTML;
+            var pos = txt.replace(/0/g, '۰').replace(/1/g, '۱').replace(/2/g, '۲').replace(/3/g, '۳').replace(/4/g, '۴')
+                .replace(/5/g, '۵').replace(/6/g, '۶').replace(/7/g, '۷').replace(/8/g, '۸').replace(/9/g, '۹');
+            document.getElementById("post-words").innerHTML = pos;
+        </script>
     </div>
 </article>
 {% endfor %}

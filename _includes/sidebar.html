@@ -46,7 +46,12 @@
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>۱۳۹۷ &copy;</p>
+      <p id="copyright">۱۳۹۷ &copy;</p>
+      <script type="text/javascript">
+          var day = new Date();
+          var dayWrapper = new persianDate(day);
+          document.getElementById("copyright").innerHTML = dayWrapper.format('YYYY') + ' &copy; ' + '{{site.author}}'
+      </script>
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
