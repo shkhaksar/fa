@@ -103,6 +103,7 @@
         box-shadow: none;
         border: none;
         float: right;
+        direction: ltr;
         /*POSITION*/
         position: static;
     }
