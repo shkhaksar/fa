@@ -1,0 +1,334 @@
+---
+---
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>درباره من | {{site.author}}</title>
+    <meta name="description" content="Shayan Khaksar Blog.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/favicon.png'| prepend: site.baseurl }}">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}"
+          type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{{ '/assets/css/about/owl.carousel.css' | prepend: site.baseurl }}" type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{{ '/assets/css/about/owl.theme.css' | prepend: site.baseurl }}" type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{{ '/assets/fonts/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}"
+          media="all">
+    <link rel="stylesheet" href="{{ '/assets/css/about/magnific-popup.css' | prepend: site.baseurl }}" type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{{ '/assets/css/about/style.css' | prepend: site.baseurl }}" type="text/css"
+          media="all">
+
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'| prepend: site.baseurl }}"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js'| prepend: site.baseurl }}"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<!-- Main Wrapper -->
+<main class="wrapper">
+
+    <!-- Header -->
+    <header class="header pull-right">
+
+
+        <!-- Mobile menu -->
+        <div class="mobile-bar visible-sm visible-xs">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <!-- Mobile menu end -->
+
+        <div class="header-div">
+            <div class="avatar">
+                <img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}"
+                     alt="avatar">
+            </div>
+
+            <div class="name">
+                <h1>{{site.author}}</h1>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <ul>
+                    {% if site.social-twitter %}
+                    <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter"
+                                                                                                   aria-hidden="true"></i></a>
+                    </li>
+                    {% else %}
+                    <li><a href="https://twitter.com/sh_khaksar" target="_blank"><i class="fa fa-twitter"
+                                                                                    aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if site.social-facebook %}
+                    <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i
+                            class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    {% else %}
+                    <li><a href="https://facebook.com/sh.khaksar" target="_blank"><i class="fa fa-facebook"
+                                                                                     aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if site.social-linkedin %}
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                    {% else %}
+                    <li class="linkedin"><a href="https://www.linkedin.com/shkhaksar" target="_blank"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if site.social-instagram %}
+                    <li class="instagram"><a href="https://www.instagram.com/{{site.social-instagram}}" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
+                    {% else %}
+                    <li class="instagram"><a href="https://www.instagram.com/shkhaksar" target="_blank"><i
+                            class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if site.social-email %}
+                    <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+                    {% else %}
+                    <li class="email"><a href="mailto:sh.khaksar@yahoo.com"><i class="fa fa-envelope-o"
+                                                                               aria-hidden="true"></i></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            <!-- Social Icons end -->
+
+            <!-- Navigation bar -->
+            <nav class="main-nav">
+                <ul class="navigation">
+                    <li><a href="{{site.baseurl}}/">خانه</a></li>
+                    <li><a href="#about">درباره من</a></li>
+                    <li><a href="#resume">تجربه‌ها</a></li>
+                </ul>
+            </nav>
+            <!-- Navigation bar end -->
+
+            <!-- Footer Copyright -->
+            <div class="copyright">
+                <span>{{site.time | date: '%Y'}} &copy; {{site.author}}</span>
+            </div>
+            <!-- Footer Copyright end -->
+        </div>
+
+    </header>
+    <!-- Header end -->
+
+    <!-- Main Content -->
+    <div class="main-content pull-left">
+
+        <!-- Section About -->
+        <section id="about" class="about">
+
+            <div class="section-header">
+                <h2>درباره {{site.author}}</h2>
+            </div>
+
+            <!-- Intro -->
+            <div class="intro">
+
+                <ul class="info">
+                    <li>تولد: ۲۹ مرداد ۱۳۷۴</li>
+                    <li>موقعیت: ایران - اهواز</li>
+                    <li>ایمیل: sh.khaksar@yahoo.com</li>
+                    <li>تلفن: ۹۸۹۳۸۱۵۱۴۵۷۱+</li>
+                </ul>
+
+                <p>{{site.about-author}}</p>
+
+            </div>
+            <!-- Intro end -->
+
+            <!-- Skills -->
+            <div class="skills">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Software Engineering</h3>
+                            <span class="pull-right">90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="99"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Android Application Development</h3>
+                            <span class="pull-right">90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="45"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Object Oriented Programming</h3>
+                            <span class="pull-right">100%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Networking & Internet Technologies</h3>
+                            <span class="pull-right">70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Applied Programming</h3>
+                            <span class="pull-right">65%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">A.I. & Machine Learning</h3>
+                            <span class="pull-right">40%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 item">
+                        <div class="skill-info clearfix">
+                            <h3 class="pull-left">Embedded Systems</h3>
+                            <span class="pull-right">30%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Skills end -->
+        </section>
+        <!-- Section About end -->
+
+        <!-- Section Resume -->
+        <section id="resume" class="resume">
+
+            <div class="section-header">
+                <h2>تحصیلات | تجربه‌ها</h2>
+                <a href="#" class="resume-download" data-toggle="tooltip" data-placement="bottom" title="Download">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="row" style="direction: rtl;">
+
+                <!-- Carousel -->
+                <div class="resume-carousel">
+
+                    <div class="carousel-item">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="top-item resume-item">
+                                <h2>مدیر محصول</h2>
+                                <span>۱۳۹۶ - الان</span>
+                                <p>فناوران آریا (سهامی خاص)</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="top-item resume-item">
+                                <h2>دانشگاه - کاشناسی</h2>
+                                <span>۱۳۹۲ - ۱۳۹۷</span>
+                                <p>مهندسی کامپیوتر - شهید چمران اهواز
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="top-item resume-item">
+                                <h2>توسعه دهنده اندروید</h2>
+                                <span>۱۳۹۳ - الان</span>
+                                <p>همین‌ورا</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="top-item resume-item">
+                                <h2>توسعه دهنده بک-اند</h2>
+                                <span>۱۳۹۵ - ۱۳۹۶</span>
+                                <p>فناوران آریا (سهامی خاص)</p>
+                            </div>
+                        </div>
+
+                    </div><!-- Page 1 End -->
+
+                    <div class="carousel-item">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="top-item resume-item">
+                                <h2>توسعه دهنده اندروید</h2>
+                                <span>۱۳۹۴ - ۱۳۹۶</span>
+                                <p>فناوران آریا (سهامی خاص)</p>
+                            </div>
+                        </div>
+
+                    </div><!-- Page 2 end -->
+
+                </div>
+                <!-- Carousel end -->
+
+            </div>
+
+        </section>
+        <!-- Section Resume end -->
+
+
+    </div>
+    <!-- Main Content end -->
+
+</main>
+<!-- Main Wrapper end -->
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="{{ '/assets/js/jquery-1.12.3.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.onepage-scroll.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.easing.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.filterizr.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.magnific-popup.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/bootstrap/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/owl.carousel.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/custom.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/smoothscroll.min.js' | prepend: site.baseurl }}"></script>
+
+</body>
+</html>

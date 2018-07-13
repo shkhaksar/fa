@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'سلام دنیا!'
-date: 2017-04-06 13:32:20
+# date: 2017-04-06 13:32:20
 description: 'a'
 img: i-rest.jpg # Add image post (optional)
 ---
