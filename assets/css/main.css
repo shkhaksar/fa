@@ -1274,7 +1274,6 @@ a.newer-posts:hover {
 .pagination div {
     justify-content: center;
     margin: 10px;
-    auto;
     display: flex;
 }
 
