@@ -40,6 +40,7 @@
     padding: 0;
     text-align: center;
     /*POSITION*/
+    direction: rtl;
     position: absolute;
     top: 60px;
     right: 0;
@@ -103,7 +104,6 @@
         box-shadow: none;
         border: none;
         float: right;
-        direction: ltr;
         /*POSITION*/
         position: static;
     }
