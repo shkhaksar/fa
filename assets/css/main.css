@@ -1061,7 +1061,18 @@ a.newer-posts:hover {
 .header-page .page-date {
     color: #a0a0a0;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
+    display: inline;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.header-page .page-author {
+    color: #a0a0a0;
+    font-weight: 300;
+    font-size: 14px;
+    display: inline;
+    width: auto;
     text-transform: uppercase;
 }
 
