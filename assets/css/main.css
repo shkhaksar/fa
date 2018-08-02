@@ -1050,6 +1050,14 @@ a.newer-posts:hover {
     direction: rtl;
 }
 
+.wrap-content p strong {
+    display: inline-block;
+    margin: 15px 10%;
+    text-align-last: center;
+    text-align: justify;
+    font-size: larger;
+    font-weight: 900;
+}
 
 .post-content blockquote {
     border-right: 5px solid #666666;
@@ -1241,7 +1249,7 @@ a.newer-posts:hover {
         flex-direction: column;
     }
 
-    .wrap-content{
+    .wrap-content {
         margin-left: 10px;
         margin-right: 10px;
     }
