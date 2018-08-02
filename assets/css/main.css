@@ -1038,12 +1038,18 @@ a.newer-posts:hover {
 }
 
 .post-content {
-
     direction: rtl;
 }
 
-.wrap-content p strong {
+.post-content p strong {
     font-weight: 900;
+}
+
+.post-content img {
+    display: block;
+    margin: 3% auto;
+    width: auto;
+    max-width: 75%;
 }
 
 .post-content blockquote {
@@ -1266,6 +1272,12 @@ a.newer-posts:hover {
         margin: 0 5%;
         font-size: large;
         font-weight: 600;
+    }
+
+    .post-content img {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
     }
 
 }
