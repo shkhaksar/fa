@@ -791,14 +791,6 @@ img {
     display: inline-block;
 }
 
-blockquote {
-    border-left: 5px solid #000;
-    padding-left: 1.1rem;
-    margin-left: 1rem;
-    font-style: italic;
-    color: #ada8a8;
-}
-
 pre {
     padding: 1rem 2rem;
     overflow-x: auto;
@@ -1041,8 +1033,8 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
     padding: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .post-content {
@@ -1051,22 +1043,18 @@ a.newer-posts:hover {
 }
 
 .wrap-content p strong {
-    display: inline-block;
-    margin: 15px 10%;
-    text-align-last: center;
-    text-align: justify;
-    font-size: larger;
     font-weight: 900;
 }
 
 .post-content blockquote {
-    border-right: 5px solid #666666;
-    border-left: 1px dashed #666666;
-    padding-right: 1.1rem;
-    margin-right: 1rem;
+    border: none;
     font-style: italic;
-    color: #ada8a8;
-    margin-left: 1rem;
+    color: #263959;
+    text-align: justify;
+    display: inline-block;
+    margin: 0 15%;
+    font-size: larger;
+    font-weight: 900;
 }
 
 .header-page {
@@ -1272,6 +1260,12 @@ a.newer-posts:hover {
 
     .page-cover-image .page-image {
         max-height: 300px;
+    }
+
+    .post-content blockquote {
+        margin: 0 5%;
+        font-size: large;
+        font-weight: 600;
     }
 
 }
