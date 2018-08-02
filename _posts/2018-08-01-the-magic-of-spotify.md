@@ -141,5 +141,7 @@ categories: [بررسی]
 
 [Ever Wonder How Spotify Discover Weekly Works? Data Science](http://blog.galvanize.com/spotify-discover-weekly-data-science/)
 
+[How Does Spotify Know You So Well?](https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe)
+
 [The Amazing Ways Spotify Uses Big Data, AI And Machine Learning To Drive Business Success](https://www.forbes.com/sites/bernardmarr/2017/10/30/the-amazing-ways-spotify-uses-big-data-ai-and-machine-learning-to-drive-business-success/#6df538004bd2)
 
