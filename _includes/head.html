@@ -17,8 +17,6 @@
     {% endif %}
     {% if page.description %}
     <meta content="{{ page.description }}" property="og:description">
-    {% elseif page.content %}
-    <meta content="{{page.content | slice: 0, 149 }}" property="og:description">
     {% else %}
     <meta content="{{ site.description }}" property="og:description">
     {% endif %}
