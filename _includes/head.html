@@ -18,7 +18,7 @@
     {% if page.description %}
     <meta content="{{ page.description }}" property="og:description">
     {% else if page.content %}
-    <meta content="{{page.content | markdownify}}" property="og:description">
+    <!--<meta content="{{page.content | markdownify}}" property="og:description">-->
     {% else %}
     <meta content="{{ site.description }}" property="og:description">
     {% endif %}
