@@ -1041,9 +1041,12 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
     padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .post-content {
+
     direction: rtl;
 }
 
@@ -1101,7 +1104,7 @@ a.newer-posts:hover {
 
 .page-cover-image .page-image {
     object-fit: cover;
-    max-height: 300px;
+    max-height: 400px;
     width: 100%;
     height: 100%;
 }
@@ -1238,6 +1241,11 @@ a.newer-posts:hover {
         flex-direction: column;
     }
 
+    .wrap-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .post .post-thumbnail {
         width: 100%;
     }
@@ -1253,6 +1261,11 @@ a.newer-posts:hover {
     .post .post-content .post-title a {
         font-size: 21px;
     }
+
+    .page-cover-image .page-image {
+        max-height: 300px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
