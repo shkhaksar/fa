@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'نوستالژی: Space Pinball for Windows'
+description: 'چگونه بازی اس'
 img: posts/2018-07-29-space-pinball.png
 date: 2018-07-29 19:14:00 +04:30
 categories: [سرگرمی]
