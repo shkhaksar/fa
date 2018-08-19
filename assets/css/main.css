@@ -1031,10 +1031,13 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
+
 .wrap-content {
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 50px 130px 0;
+}
+
+.comment-section{
+    margin: 10px 20px;
 }
 
 .post-content {

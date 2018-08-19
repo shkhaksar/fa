@@ -51,10 +51,12 @@ comments: true
                         {% endfor %}
                     </div>
                 </div>
+            </div> <!-- End Wrap Content -->
+            <div class="comment-section">
                 {% if page.comments != false %}
                 {% include disqus.html %}
                 {% endif %}
-            </div> <!-- End Wrap Content -->
+            </div>
         </div> <!-- End Page Content -->
     </article> <!-- End Article Page -->
 </div>
